@@ -1,0 +1,123 @@
+/* BREAKPOINTS */
+
+/* SM breakpoint */
+@media (min-width: 576px) {
+   
+    .width-sizing{
+
+        width: 75%;
+
+    }
+}
+
+/* MD breakpoint*/
+@media (min-width: 768px) {
+  
+    .width-sizing{
+
+        width: 50% ;
+
+    }
+    
+}
+
+/* LG breakpoint */
+@media (min-width: 992px) {
+    
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200&display=swap');
+*{
+	padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body
+{
+	 transition:all 0.5s ease;
+	 -webkit-transition:all 0.5s ease;
+	 -moz-transition:all 0.5s ease;
+	 background-color: #FFFFFF; 
+
+	 /* background: url(images/bg.png) no-repeat center center scroll;
+	 -webkit-background-size: cover;
+	 -moz-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	 min-height: 100%; */
+}
+
+body, html
+{
+	min-height: 100vh;
+    background-color:ghostwhite ;
+}
+a
+{
+	text-decoration:none;
+	display:inline-block;
+}
+
+a:hover
+{
+	text-decoration:underline
+}
+
+.bg-color
+{
+
+    background-color: rgb(52, 45, 45);
+
+}
+
+/* Navbar css */
+
+.nav-link
+{
+    font-size: 20px;
+    color: azure!important;
+
+
+}
+
+/* Error message show section css */
+
+#error-section
+{
+	margin-top: 100px;
+}
+
+#error-section h1
+{
+  text-align: center;
+   color: red;
+
+}
+
+/* card css  */
+
+.cardStyle
+{
+	width: 40rem;
+	margin: 0 auto;          
+}
+
+/*spanning section css */
+
+.loader {
+    
+    display: none;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 20px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
